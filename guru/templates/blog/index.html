@@ -1,0 +1,55 @@
+{% extends 'base.html' %} 
+
+{% block body %}
+<div class="row">
+  <div class="col-lg-7">
+    <div>
+      <h2 style="font-size: 36px" class="article-title">
+        <a href="#" 
+          >How Can You Benefit From the One-Percent Improvement Approach: 9
+          Practical Tips From a Project Manager</a
+        >
+      </h2>
+
+      <div class="d-flex mb-3">
+        {% load static %}
+        <div>
+          <img
+            src="{% static 'blog/avatar-sample.jpg' %}"
+            class="avatar"
+            alt=""
+          />
+        </div>
+
+        <div class="px-1 meta" style="font-size: 14px">
+          <p class="mb-0" style="color: #333333">htet lin maung</p>
+          <span class="date">Nov 20, 2019 | 8 min read</span>
+          <span class="category-links">
+            <a href="#">Project Management</a>
+            <a href="#">team_pm</a>
+            <a href="#">pm_stories</a>
+          </span>
+        </div>
+      </div>
+
+      <img
+        src="{% static 'blog/cover-sample.jpg' %}"
+        alt=""
+        class="cover-img img-fluid"
+      />
+
+      <p class="mt-5" style="font-size: 18px; color: #515151">
+        Success is a few simple disciplines, practiced every day; while failure
+        is simply a few errors in judgment, repeated every day. —Jim Rohn
+        Someone said that the one-percent improvement approach (also known as
+        continuous improvement) can make one win a medal at the Olympic Games.
+        It might not be the only reason to apply this approach in your life.
+        Continuous improvement is a great tool (or rather a mindset) you can use
+        to achieve your long term goals, and become more efficient, organized,
+        productive and happy.
+      </p>
+      <a href="#" class="more">Read more</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
